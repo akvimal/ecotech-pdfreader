@@ -1,0 +1,39 @@
+# Main GUI Framework
+PyQt6==6.5.0
+PyQtWebEngine==6.5.0  # For rich PDF preview
+
+# Backend API
+fastapi==0.104.0
+uvicorn==0.24.0
+sqlalchemy==2.0.23
+alembic==1.12.0
+psycopg2-binary==2.9.7  # PostgreSQL driver
+
+# Authentication & Security
+PyJWT==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Email Processing
+imaplib2==2.57
+exchangelib==5.0.0
+email-validator==2.1.0
+
+# PDF Processing
+pdfplumber==0.9.0
+camelot-py[cv]==0.10.1
+tabula-py==2.8.2
+PyMuPDF==1.23.8  # PDF preview and metadata
+
+# Excel Generation
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Background Tasks
+APScheduler==3.10.4  # Scheduled tasks
+asyncio-mqtt==0.13.0  # For real-time notifications
+
+# Deployment
+PyInstaller==6.1.0
+psutil==5.9.6  # System monitoring
+plyer==2.1.0   # Cross-platform notifications

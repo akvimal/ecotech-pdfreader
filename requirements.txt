@@ -1,0 +1,52 @@
+# GUI Framework
+PyQt6==6.6.0
+PyQt6-WebEngine==6.6.0
+
+# Web API Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+SQLAlchemy==2.0.23
+alembic==1.13.0
+psycopg2-binary==2.9.9
+
+# Authentication & Security
+PyJWT==2.8.0
+passlib[bcrypt]==1.7.4
+cryptography==41.0.7
+python-multipart==0.0.6
+
+# Email Processing
+imapclient==3.0.1
+exchangelib==5.1.0
+email-validator==2.1.0
+
+# PDF Processing
+pdfplumber==0.10.3
+camelot-py[cv]==0.10.1
+tabula-py==2.9.0
+PyMuPDF==1.23.8
+
+# Excel Processing
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+pandas==2.1.4
+
+# Background Tasks & Scheduling
+APScheduler==3.10.4
+asyncio==3.4.3
+
+# System Integration
+psutil==5.9.6
+plyer==2.1.0
+python-dotenv==1.0.0
+
+# Utilities
+requests==2.31.0
+aiofiles==23.2.1
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Logging & Monitoring
+loguru==0.7.2
